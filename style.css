@@ -1,0 +1,11 @@
+import turtle
+t = turtle.Turtle()
+t.color("white")
+t.speed(0)
+t.hideturtle()
+def square(number):
+	return number*5
+	for side in range(540):
+		angle = number
+		t.right(angle + 5)
+		t.forward(5)
